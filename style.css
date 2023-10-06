@@ -1,0 +1,70 @@
+body {
+    background-image: url(./img/main.jpg); /* Reemplaza 'nombre-de-tu-imagen.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  /* Agrega una superposición semitransparente */
+  body::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.74); /* Ajusta el nivel de oscurecimiento */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegura que la superposición esté detrás del contenido */
+  }
+
+  .btn-custom {
+    background-color: #e47900; 
+    color: white;
+}
+
+
+.card-text {
+  text-align: justify; /* Texto justificado */
+  font-size: 1.5rem; /* Tamaño de fuente 2 veces más grande */
+}
+.card-title {
+  text-align: center; /* Título centrado */
+  font-size: 2rem;
+}
+
+#typed-text::after {
+  content: '|'; 
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+}
+
+/* Estilo personalizado para el carrusel */
+.custom-carousel {
+  width: 600px; /* Ajusta el ancho deseado */
+  height: 450px !important; /* Ajusta la altura deseada */
+  margin: 0 auto; /* Para centrar horizontalmente */
+}
+
+/* Estilo para las imágenes dentro del carrusel */
+.custom-carousel .carousel-inner {
+  height: 100%; /* Ajusta la altura del carrusel */
+}
+
+.custom-carousel .carousel-inner .carousel-item {
+  height: 100%; /* Ajusta la altura de cada elemento del carrusel */
+}
+
+.custom-carousel img {
+  object-fit: cover; /* Escala la imagen para llenar el contenedor */
+  width: 100%;
+  height: 100%; /* Ajusta la altura de la imagen */
+}
+
