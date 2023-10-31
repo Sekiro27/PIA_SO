@@ -1,0 +1,9 @@
+.tarjeta {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .card-img-top {
+    height: 200px; /* Altura deseada para la imagen */
+    object-fit: cover;
+    width: 100%;
+  }
