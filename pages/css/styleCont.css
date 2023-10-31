@@ -3,7 +3,8 @@
     text-align: center;
   }
   .card-img-top {
-    height: 200px; /* Altura deseada para la imagen */
+    height: 305px; /* Altura deseada para la imagen */
     object-fit: cover;
-    width: 100%;
+    width: 250px;
+    margin: auto;
   }
