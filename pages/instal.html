@@ -8,6 +8,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
 <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/styleInstal.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -52,17 +53,114 @@
     </div>
 </nav>
 
+<header>
+    <h1>Instalar Ubuntu</h1><link rel="stylesheet" href="css/styleHistoria.css">
+</header>
+<nav>
+    <ul>
+        <li><a href="#Requ">Requisitos de instalación</a></li>
+        <li><a href="#Desc">Link de descarga</a></li>
+        <li><a href="#IstI">¿Como se instala?</a></li>
+    </ul>
+</nav>
 
+<section class="blog-post" id="Requ">
+    <h2>Requisitos para instalar Ubuntu en un ordenador</h2>
+    <p>
+        Para instalar Ubuntu en un ordenador, tu equipo tiene que cumplir los siguientes requisitos:
+            <ul>
+                <li>Procesador de doble núcleo a 2 GHz o superior</li>
+                <li>Al menos 4 GB de RAM</li>
+                <li>25 GB de espacio libre en disco</li>
+                <li>Puerto USB y una memoria USB con al menos 4 GB de capacidad</li>
+            </ul>
+    </p>
+</section>
 
+<section class="blog-post" id="Desc">
+    <h2>Link de descarga del sistema operativo</h2>
+    <p>
+        Para instalar Ubuntu en un ordenador debes acceder al siguiente link: <a href="https://ubuntu.com/#download">Descarga Ubuntu</a><br>
+        Una vez dentro de la página deberas seguir los pasos que te recomendamos seguir para una instalación exitosa.
+    </p>
+</section>
 
+<section class="blog-post" id="IstI">
+    <h2>¿Cómo instalar Ubuntu?</h2>
+    <p>
+        El primer paso para instalar Ubuntu de forma nativa es descargar el archivo ISO oficial del sistema operativo Ubuntu. En la opción de descargas, seleccionaremos la versión mas reciente.
+        <div class="image-container">
+            <img src="../img_instal/download_ubu.png" alt="Versiones de ubuntu">
+        </div>
+        Después de descargar el archivo ISO, tendrás que crear una unidad USB de arranque, que se utilizará para instalar Ubuntu. Para ello, tendrás que utilizar un software de terceros, como Rufus. Te recomendamos que descargues la versión portátil, ya que no requerirá ninguna instalación y estará lista para usarse de inmediato.
+        <div class="image-container">
+            <img src="../img_instal/kinddown.png" alt="Tipo de instalacion">
+        </div>
+        Sólo tienes que abrir el archivo ejecutable y Rufus se iniciará. Una vez hecho esto, asegúrate de que la unidad USB está conectada y selecciona el archivo ISO de Ubuntu. En cuanto a las opciones de formato, deja los valores por defecto del sistema de archivos y del tamaño del clúster y haz clic en START. Dale unos diez minutos y la unidad USB de arranque estará lista.
+        <div class="image-container">
+            <img src="../img_instal/opcform.png" alt="Opcion de formateo">
+        </div>
+        <div class="image-container">
+            <img src="../img_instal/propuni.png" alt="Propiedades de la unidad">
+        </div>
+        <br>
+        Con la unidad de arranque de Ubuntu lista, procede a la instalación. Para ello, reinicia tu ordenador y accede a la BIOS. Normalmente, se puede acceder a la BIOS pulsando las teclas DEL o F2 del teclado siempre que aparezca una pantalla similar
+        <div class="image-container">
+            <img src="../img_instal/biosej.webp" alt="Ejemplo de bios">
+        </div>
+        Una vez en la BIOS, busca el menú de arranque y configura el orden para que la unidad USB sea la primera de la lista. Debería tener este aspecto:
+        <div class="image-container">
+            <img src="../img_instal/biosej.webp" alt="Ejemplo de bios">
+        </div>
+        Ahora guarda y cierra la BIOS. Dale unos minutos y el instalador de Ubuntu debería iniciarse. Una vez que comience, pasa a la siguiente sección sobre el instalador de Ubuntu.
+        <div class="image-container">
+            <img src="../img_instal/unidadbios.png" alt="Ejemplo de selector de unidades en bios">
+        </div>
+        Cuando el sistema se inicie en la pantalla de instalación del nuevo Ubuntu, selecciona la opción Probar o Instalar Ubuntu.
+        <div class="image-container">
+            <img src="../img_instal/instalubu.png" alt="opcion de instalar">
+        </div>
+        Selecciona el idioma del instalador y elige la opción Instalar Ubuntu en el siguiente paso. También hay una opción para probar Ubuntu. En ese caso, ninguno de los archivos del disco duro se borrará. Sin embargo, vamos a proceder a la instalación completa.
+        <div class="image-container">
+            <img src="../img_instal/selecinstal.png" alt="Idioma del sistema operativo">
+        </div>
+        Elige la disposición de teclado preferida.
+        <div class="image-container">
+            <img src="../img_instal/keywors.png" alt="disposiciónd del teclado">
+        </div>
+        Ahora puedes elegir entre las instalaciones Normal y Mínima. Te recomendamos que te quedes con la Instalación normal, ya que ofrece más utilidades y paquetes de software. Además, selecciona la opción de descargar actualizaciones para obtener la última versión posible.
+        <div class="image-container">
+            <img src="../img_instal/tiponormin.png" alt="Instalación normal y minima">
+        </div>
+        Para el tipo de instalación, elige Borrar disco e instalar Ubuntu.
+        <div class="image-container">
+            <img src="../img_instal/eraretype.png" alt="Tipo de instalacion">
+        </div>
+        Cuando se te pregunte por la partición, haz clic en Continuar.
+        <div class="image-container">
+            <img src="../img_instal/part.png" alt="Notificacion de la particion">
+        </div>
+        A continuación, selecciona la zona horaria.
+        <div class="image-container">
+            <img src="../img_instal/clock.png" alt="seleccionar zona horaria">
+        </div>
+        Por último, rellena el nombre, el nombre de usuario y la contraseña.
+        <div class="image-container">
+            <img src="../img_instal/userpas.png" alt="creacion de usuario y contraseña">
+        </div>
+        Después de hacer clic en continuar, se iniciará la instalación de Ubuntu. Dale unos 20 minutos y reinicia el ordenador una vez terminada la instalación. Una vez que el ordenador arranque, deberías ver la pantalla de bienvenida por defecto. Y listo habrás instalado Ubuntu correctamente.
+        <div class="image-container">
+            <img src="../img_instal/congrast.png" alt="Pantalla de inicio">
+        </div>
+    </p>
+</section>
 
-
+<section class="blog-post"></section>
 
 <footer class="fixed-bottom bg-dark text-center">
-    <p class="mb-0 text-white">Todos los derechos de Ubuntu son de Canonical Ltd. Esta página es de dinalidad meramente didactica</p>
+    <p class="mb-0 text-white">Todos los derechos de Ubuntu son de Canonical Ltd. Esta página es de finalidad meramente didactica</p>
     <button class="btn btn-warning">Acerca de nosotros</button>
 </footer>
-
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 

@@ -1,0 +1,43 @@
+.blog-post {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.blog-post h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.list-section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px;
+    padding: 10px 0;
+}
+
+.image-container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%; /* La imagen no superará su tamaño original */
+    height: auto; /* Se mantendrá la proporción de la imagen */
+}
+
+h2{
+    text-align: center;
+}
